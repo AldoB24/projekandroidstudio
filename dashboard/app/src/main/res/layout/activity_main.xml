@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+
+        android:id="@+id/kuliner"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/lingkarankuliner"
+        android:padding="10dp"
+        android:src="@drawable/ic_baseline_restaurant_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.178"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.192" />
+
+
+    <TextView
+        android:id="@+id/textkuliner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KULINER"
+        android:textColor="@color/kuliner"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.203"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kuliner"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+
+        android:id="@+id/wisata"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/lingkaranwisata"
+        android:padding="10dp"
+        android:src="@drawable/ic_baseline_filter_hdr_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.192" />
+
+    <TextView
+        android:id="@+id/textwisata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WISATA"
+        android:textColor="@color/wisata"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wisata"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+
+        android:id="@+id/belanja"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/lingkaranbelanja"
+        android:padding="10dp"
+        android:src="@drawable/ic_baseline_local_grocery_store_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.806"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.192" />
+
+    <TextView
+        android:id="@+id/textbelanja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BELANJA"
+        android:textColor="@color/belanja"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.816"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/belanja"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+
+        android:id="@+id/hotel"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/lingkaranhotel"
+        android:padding="10dp"
+        android:src="@drawable/ic_baseline_hotel_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.178"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <TextView
+        android:id="@+id/texthotel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HOTEL"
+        android:textColor="@color/hotel"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.196"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hotel"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+
+        android:id="@+id/tempatibadah"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/lingkarantempatibadah"
+        android:padding="10dp"
+        android:src="@drawable/ic_baseline_location_city_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.806"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.777" />
+
+    <TextView
+        android:id="@+id/texttempatibadah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEMPAT IBADAH"
+        android:textColor="@color/tempatibadah"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.847"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tempatibadah"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+
+        android:id="@+id/kerajinan"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/lingkarankerajinan"
+        android:padding="10dp"
+        android:src="@drawable/ic_baseline_color_lens_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.806"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <TextView
+        android:id="@+id/textkerajinan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KERAJINAN"
+        android:textColor="@color/kerajinan"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.861"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kerajinan"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+
+        android:id="@+id/taman"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/lingkarantaman"
+        android:padding="10dp"
+        android:src="@drawable/ic_baseline_nature_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.777" />
+
+    <TextView
+        android:id="@+id/texttaman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TAMAN"
+        android:textColor="@color/taman"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/taman"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+
+        android:id="@+id/transportasi"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/lingkarantransportasi"
+        android:padding="10dp"
+        android:src="@drawable/ic_baseline_time_to_leave_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.178"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.777" />
+
+    <TextView
+        android:id="@+id/texttransportasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TRANSPORTASI"
+        android:textColor="@color/transportasi"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.159"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/transportasi"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+
+        android:id="@+id/spbu"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/lingkaranspbu"
+        android:padding="10dp"
+        android:src="@drawable/ic_baseline_local_gas_station_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <TextView
+        android:id="@+id/textspbu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SPBU"
+        android:textColor="@color/spbu"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spbu"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>
